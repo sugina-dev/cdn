@@ -21,10 +21,6 @@
 
 /* Global style */
 
-body {
-	font-family: sans-serif;
-}
-
 :lang(zh-Nshu) { font-family: sans-serif, 'Unicode Nushu', sans-serif; }
 
 body > p {
@@ -36,9 +32,8 @@ body > table {
 }
 
 body {
-	color: #444;
-	font-size: 12px;
-	line-height: 1.7;
+	font-family: sans-serif;
+	line-height: 1.6;
 	padding: 1em;
 	margin: auto;
 	max-width: 55em;
@@ -57,42 +52,16 @@ a:focus { outline: thin dotted; }
 
 ::selection { background: LavenderBlush; }
 
+p {
+	text-align: justify;
+}
+
 img {
 	max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color: #111;
-	line-height: 125%;
-	font-weight: normal;
-}
-
-h4, h5, h6 {
-	font-weight: bold;
-}
-
 header > h1.title {
 	font-size: 2.5em;
-}
-
-h2 {
-	font-size: 1.5em;
-}
-
-h3 {
-	font-size: 1.2em;
-}
-
-h4 {
-	font-size: 1em;
-}
-
-h5 {
-	font-size: 0.9em;
-}
-
-h6 {
-	font-size: 0.8em;
 }
 
 blockquote {
@@ -115,7 +84,6 @@ hr {
 pre, code, kbd, samp {
 	color: #000;
 	font-family: monospace, monospace;
-	_font-family: 'courier new', monospace;
 	font-size: 0.98em;
 }
 
@@ -162,17 +130,12 @@ sub {
 }
 
 ul, ol {
-	margin: 1em 0;
 	padding: 0 0 0 2em;
 	line-height: 1.75;
 }
 
 li p:last-child {
 	margin-bottom: 0;
-}
-
-ul ul, ol ol {
-	margin: .3em 0;
 }
 
 dl {
@@ -253,16 +216,6 @@ table td {
 	margin: 0;
 }
 
-@media only screen and (min-width: 480px) {
-	body {
-		font-size: 14px;
-	}
-}
-@media only screen and (min-width: 768px) {
-	body {
-		font-size: 16px;
-	}
-}
 @media print {
 	* {
 		background: transparent !important;
