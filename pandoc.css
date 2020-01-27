@@ -40,6 +40,12 @@ body {
 	background: #fefefe;
 }
 
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+}
+
 a {
 	color: dodgerblue;
 	text-decoration: none;
