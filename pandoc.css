@@ -48,7 +48,7 @@ body {
 	}
 }
 
-a { text-decoration: none; }
+a { color: #0366d6; text-decoration: none; }
 a:visited { color: #0b0080; }
 a:hover { color: deeppink; }
 a:active { color: #faa700; }
