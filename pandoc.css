@@ -22,6 +22,8 @@
 /* Global style */
 
 :lang(zh-Nshu) { font-family: sans-serif, 'Unicode Nushu', sans-serif; }
+/* Use Hong Kong glyph for Sheoi Nup city, otherwise it will default to Taiwan glyph. */
+:lang(zh-Hant-x-shn) { font-language-override: "ZHH"; }
 
 body > p {
 	overflow: auto hidden;
