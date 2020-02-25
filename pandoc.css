@@ -56,7 +56,7 @@ a:focus { outline: thin dotted; }
 
 ::selection { background: LavenderBlush; }
 
-p {
+p:lang(zh), p:lang(ja), p:lang(ko) {
 	text-align: justify;
 }
 
