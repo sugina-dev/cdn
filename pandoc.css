@@ -97,6 +97,13 @@ pre {
 	word-wrap: break-word;
 }
 
+pre {
+	background-color: #f6f8fa;
+	border-radius: 3px;
+	font-size: 90%;
+	padding: 16px;
+}
+
 b, strong {
 	font-weight: bold;
 }
