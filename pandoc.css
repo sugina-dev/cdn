@@ -201,16 +201,16 @@ table {
 }
 
 table th {
-	padding: .2em 1em;
-	background-color: #eee;
-	border-top: 1px solid #ddd;
-	border-left: 1px solid #ddd;
+	background-color: #f3f3f3;
 }
 
 table td {
-	padding: .2em 1em;
-	border: 1px solid #ddd;
 	vertical-align: top;
+}
+
+table th, table td {
+	border: 1px solid;
+	padding: 2px 10px;
 }
 
 .footnotes {
@@ -232,10 +232,6 @@ table td {
 	body {
 		font-size: 12pt;
 		max-width: 100%;
-	}
-
-	a, a:visited {
-		text-decoration: underline;
 	}
 
 	hr {
