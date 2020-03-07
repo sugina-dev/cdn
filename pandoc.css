@@ -39,7 +39,6 @@ body {
 	padding: 1em;
 	margin: auto;
 	max-width: 55em;
-	background: #fefefe;
 }
 
 @media only screen and (max-width: 768px) {
@@ -98,7 +97,7 @@ pre {
 
 pre {
 	font-size: 90%;
-	padding: 16px;
+	padding: 8px 0;
 }
 
 b, strong {
@@ -215,6 +214,10 @@ table th, table td {
 	margin: 0;
 }
 
+.footnote-back {
+	padding-left: 2px;
+}
+
 @media print {
 	* {
 		background: transparent !important;
@@ -224,7 +227,7 @@ table th, table td {
 	}
 
 	body {
-		font-size: 12pt;
+		font-size: 10.5pt;
 		max-width: 100%;
 	}
 
