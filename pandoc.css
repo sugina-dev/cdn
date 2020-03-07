@@ -250,8 +250,6 @@ table th, table td {
 	}
 
 	pre, blockquote {
-		border: 1px solid #999;
-		padding-right: 1em;
 		page-break-inside: avoid;
 	}
 
