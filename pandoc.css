@@ -97,7 +97,16 @@ pre {
 
 pre {
 	font-size: 90%;
-	padding: 8px 0;
+}
+
+pre > code.sourceCode {
+	white-space: pre-wrap !important;
+}
+
+pre > code.sourceCode > span {
+	text-indent: -5em;
+	padding-left: 5em;
+	line-height: 1.4;
 }
 
 b, strong {
