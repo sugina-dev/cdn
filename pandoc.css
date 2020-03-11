@@ -25,10 +25,6 @@
 /* Use Hong Kong glyph for Sheoi Nup city, otherwise it will default to Taiwan glyph. */
 :lang(zh-Hant-x-shn) { font-language-override: "ZHH"; }
 
-body > p {
-	overflow: auto hidden;
-}
-
 body > table {
 	overflow: auto hidden;
 }
