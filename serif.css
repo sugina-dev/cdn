@@ -1,0 +1,30 @@
+@import url('https://cdn.jsdelivr.net/npm/hanamin@latest/HanaMin.min.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700&display=swap');
+@import url('https://cdn.sgn.shn.hk/fonts/CharisSIL-5.000-web/CharisSIL.css');
+:lang(ko), :lang(zh), :lang(lzh), :lang(yue) {
+	font-family: "Source Han Serif K", "Noto Serif CJK KR", "Source Han Serif SC", "Noto Serif CJK SC", "Source Han Serif", "Noto Serif CJK JP", "Source Han Serif TC", "Noto Serif CJK TC", 'Noto Serif KR', 'Noto Serif SC', serif, HanaMin, serif;
+	font-language-override: "KOR";
+}
+:lang(zh-CN), :lang(cmn), :lang(yue-CN), :lang(yue-Hans) {
+	font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Source Han Serif K", "Noto Serif CJK KR", "Source Han Serif", "Noto Serif CJK JP", "Source Han Serif TC", "Noto Serif CJK TC", 'Noto Serif SC', 'Noto Serif TC', serif, HanaMin, serif;
+	font-language-override: "ZHS";
+}
+:lang(zh-TW) {
+	font-family: "Source Han Serif TC", "Noto Serif CJK TC", "Source Han Serif K", "Noto Serif CJK KR", "Source Han Serif SC", "Noto Serif CJK SC", "Source Han Serif", "Noto Serif CJK JP", 'Noto Serif SC', 'Noto Serif TC', serif, HanaMin, serif;
+	font-language-override: "ZHT";
+}
+:lang(ja) {
+	font-family: "Source Han Serif", "Noto Serif CJK JP", "Source Han Serif K", "Noto Serif CJK KR", "Source Han Serif SC", "Noto Serif CJK SC", "Source Han Serif TC", "Noto Serif CJK TC", 'Noto Serif JP', 'Noto Serif SC', serif, HanaMin, serif;
+	font-language-override: "JAN";
+}
+:lang(zh-Latn) { font-family: 'Old Standard TT', serif; }
+:lang(en) { font-family: 'Old Standard TT', serif; }
+:lang(en-x-code) {
+	font-family: monospace, CharisSILW, "Source Han Serif K", "Noto Serif CJK KR", "Source Han Serif SC", "Noto Serif CJK SC", "Source Han Serif", "Noto Serif CJK JP", "Source Han Serif TC", "Noto Serif CJK TC", 'Noto Serif KR', 'Noto Serif SC', HanaMin, monospace;
+	font-language-override: "KOR";
+}
+:lang(en-x-ipa) { font-family: CharisSILW, serif; }
