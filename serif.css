@@ -14,6 +14,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/sugina-dev/latin-modern-web@1.0.1/style/latinmodern-mono.css');
 @import url('https://cdn.sgn.shn.hk/fonts/CharisSIL-5.000-web/CharisSIL.css');
 /* 預設為大陸字形者 */
 :lang(zh), :lang(zh-Hant), :lang(zh-Hans), :lang(cdo), :lang(cdo-Hant), :lang(cdo-Hans), :lang(zh-cdo), :lang(zh-cdo-Hant), :lang(zh-cdo-Hans), :lang(cjy), :lang(cjy-Hant), :lang(cjy-Hans), :lang(zh-cjy), :lang(zh-cjy-Hant), :lang(zh-cjy-Hans), :lang(cpx), :lang(cpx-Hant), :lang(cpx-Hans), :lang(zh-cpx), :lang(zh-cpx-Hant), :lang(zh-cpx-Hans), :lang(czh), :lang(czh-Hant), :lang(czh-Hans), :lang(zh-czh), :lang(zh-czh-Hant), :lang(zh-czh-Hans), :lang(czo), :lang(czo-Hant), :lang(czo-Hans), :lang(zh-czo), :lang(zh-czo-Hant), :lang(zh-czo-Hans), :lang(gan), :lang(gan-Hant), :lang(gan-Hans), :lang(zh-gan), :lang(zh-gan-Hant), :lang(zh-gan-Hans), :lang(hak), :lang(hak-Hant), :lang(hak-Hans), :lang(zh-hak), :lang(zh-hak-Hant), :lang(zh-hak-Hans), :lang(hsn), :lang(hsn-Hant), :lang(hsn-Hans), :lang(zh-hsn), :lang(zh-hsn-Hant), :lang(zh-hsn-Hans), :lang(mnp), :lang(mnp-Hant), :lang(mnp-Hans), :lang(zh-mnp), :lang(zh-mnp-Hant), :lang(zh-mnp-Hans), :lang(wuu), :lang(wuu-Hant), :lang(wuu-Hans), :lang(zh-wuu), :lang(zh-wuu-Hant), :lang(zh-wuu-Hans), :lang(csp), :lang(csp-Hant), :lang(csp-Hans), :lang(zh-csp), :lang(zh-csp-Hant), :lang(zh-csp-Hans), :lang(cnp), :lang(cnp-Hant), :lang(cnp-Hans), :lang(zh-cnp), :lang(zh-cnp-Hant), :lang(zh-cnp-Hans) {
@@ -64,7 +65,7 @@
 /* 其他 */
 :lang(en), :lang(zh-Latn) { font-family: 'Old Standard TT', serif; }
 :lang(en-x-code) {
-	font-family: monospace, CharisSILW, "Source Han Serif K", "Noto Serif CJK KR", "Source Han Serif SC", "Noto Serif CJK SC", "Source Han Serif", "Noto Serif CJK JP", "Source Han Serif TC", "Noto Serif CJK TC", 'Noto Serif KR', 'Noto Serif SC', HanaMin, monospace;
+	font-family: 'Latin Modern Mono', monospace, CharisSILW, "Source Han Serif K", "Noto Serif CJK KR", "Source Han Serif SC", "Noto Serif CJK SC", "Source Han Serif", "Noto Serif CJK JP", "Source Han Serif TC", "Noto Serif CJK TC", 'Noto Serif KR', 'Noto Serif SC', HanaMin, monospace;
 	font-language-override: "KOR";
 }
 :lang(en-x-ipa) { font-family: CharisSILW, serif; }
