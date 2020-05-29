@@ -2,7 +2,7 @@
  * Add this to your Pandoc HTML documents using `--css pandoc.css`
  * to make them look more awesome. (Tested with Markdown and LaTeX.)
  *
- * Modified by sgal
+ * Modified by Ayaka Mikazuki
  *
  * I add this to html files generated with pandoc.
  */
@@ -222,6 +222,9 @@ table th, table td {
 .footnote-back {
 	padding-left: 2px;
 }
+
+a.footnote-ref > sup::before { content: "["; }
+a.footnote-ref > sup::after { content: "]"; }
 
 @media print {
 	* {
