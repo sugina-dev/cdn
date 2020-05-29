@@ -8,4 +8,4 @@ GitHub repository: <https://github.com/sugina-dev/cdn>.
 
 Via GitHub pages: <https://cdn.sgn.shn.hk/serif.css>.
 
-Via JSDelivr: <https://cdn.jsdelivr.net/gh/sugina-dev/cdn@master/serif.css>.
+Via JSDelivr: <https://cdn.jsdelivr.net/gh/sugina-dev/cdn@latest/serif.css>.
