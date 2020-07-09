@@ -7,23 +7,11 @@
  * I add this to html files generated with pandoc.
  */
 
-/* Fonts */
-
-@font-face {
-    font-family: 'Unicode Nushu';
-    src:
-        local('Unicode Nushu'),
-        url(https://nushuscript.org/fonts/Uni1B170Nushu.woff2) format("woff2"),
-        url(https://nushuscript.org/fonts/Uni1B170Nushu.woff) format("woff"),
-        url(https://nushuscript.org/fonts/Uni1B170Nushu.ttf) format("truetype");
-    unicode-range: U+16FE1, U+1B170-1B2FB;
-}
+@import url('https://cdn.jsdelivr.net/gh/nushu-script/font-unicode-nushu@1.0.0/index.css');
 
 /* Global style */
 
 :lang(zh-Nshu) { font-family: sans-serif, 'Unicode Nushu', sans-serif; }
-/* Use Hong Kong glyph for Sheoi Nup city, otherwise it will default to Taiwan glyph. */
-:lang(zh-Hant-x-shn) { font-language-override: "ZHH"; }
 
 body > table {
 	overflow: auto hidden;
