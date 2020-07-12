@@ -7,11 +7,8 @@
  * I add this to html files generated with pandoc.
  */
 
-@import url('https://cdn.jsdelivr.net/gh/nushu-script/font-unicode-nushu@1.0.0/index.css');
 
 /* Global style */
-
-:lang(zh-Nshu) { font-family: sans-serif, 'Unicode Nushu', sans-serif; }
 
 body > table {
 	overflow: auto hidden;
