@@ -14,12 +14,26 @@ body > table {
 	overflow: auto hidden;
 }
 
+body > h1 {
+	font-size: 1.7em;
+}
+
 body {
+	background-color: #f8f8f5;
 	font-family: sans-serif;
+	font-size: 110%;
 	line-height: 1.6;
 	padding: 1em;
 	margin: auto;
 	max-width: 55em;
+}
+
+p, ul, ol, table {
+	color: #5c5c5c;
+}
+
+ul ::marker, ol ::marker {
+	color: initial;
 }
 
 @media only screen and (max-width: 768px) {
@@ -28,24 +42,40 @@ body {
 	}
 }
 
-a { color: #0366d6; text-decoration: none; }
-a:visited { color: #0b0080; }
-a:hover { color: deeppink; }
+a:link {
+	color: inherit;
+	border-bottom: 1px solid #a4a4a4;
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+
+a:link.icon, a:link.icon:hover, a:link.icon:visited,
+a:link.footnote-back, a:link.footnote-back:hover, a:link.footnote-back:visited,
+a:link.footnote-ref, a:link.footnote-ref:hover, a:link.footnote-ref:visited,
+.sourceCode a:link, .sourceCode a:link:hover, .sourceCode a:link:visited,
+nav a:link, nav a:link:hover, nav a:link:visited {
+	border-bottom: none;
+	margin: initial;
+}
+
+a:link:hover, a:link:visited {
+	border-bottom: 1px solid black;
+	color: initial;
+	transition: 0.5s;
+}
+
 a:active { color: #faa700; }
-a:focus { outline: thin dotted; }
+
+.author { display: none; }
 
 ::selection { background: LavenderBlush; }
-
-p:lang(zh), p:lang(ja), p:lang(ko) {
-	text-align: justify;
-}
 
 img {
 	max-width: 100%;
 }
 
 header > h1.title {
-	font-size: 2.5em;
+	font-size: x-large;
 }
 
 blockquote {
@@ -84,6 +114,10 @@ pre > code.sourceCode > span {
 	text-indent: -5em;
 	padding-left: 5em;
 	line-height: 1.4;
+}
+
+pre > code.sourceCode > span > a:first-child::before {
+	text-decoration: none;
 }
 
 b, strong {
