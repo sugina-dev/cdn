@@ -19,6 +19,7 @@
 :lang(hak), :lang(hak-Hans),
 :lang(zh-hak), :lang(zh-hak-Hans) {
 	font-family:
+		Roboto,
 		"Source Han Serif SC", "Noto Serif CJK SC",
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif", "Noto Serif CJK JP",
@@ -30,6 +31,7 @@
 :lang(yue), :lang(yue-Hant),
 :lang(zh-yue), :lang(zh-yue-Hant) {
 	font-family:
+		Roboto,
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif SC", "Noto Serif CJK SC",
 		"Source Han Serif", "Noto Serif CJK JP",
@@ -42,6 +44,7 @@
 :lang(nan), :lang(nan-Hant),
 :lang(zh-nan), :lang(zh-nan-Hant) {
 	font-family:
+		Roboto,
 		"Source Han Serif TC", "Noto Serif CJK TC",
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif SC", "Noto Serif CJK SC",
@@ -78,6 +81,7 @@
 :lang(nan-Hans), :lang(zh-nan-Hans),
 :lang(yue-Hans), :lang(zh-yue-Hans) {
 	font-family:
+		Roboto,
 		"Source Han Serif SC", "Noto Serif CJK SC",
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif", "Noto Serif CJK JP",
@@ -89,6 +93,7 @@
 /* 預設為台灣字形者 */
 :lang(hak-Hant), :lang(zh-hak-Hant) {
 	font-family:
+		Roboto,
 		"Source Han Serif TC", "Noto Serif CJK TC",
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif SC", "Noto Serif CJK SC",
@@ -100,6 +105,7 @@
 /* 預設為日本字形者 */
 :lang(ja) {
 	font-family:
+		Roboto,
 		"Source Han Serif", "Noto Serif CJK JP",
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif SC", "Noto Serif CJK SC",
@@ -115,6 +121,7 @@
 :lang(ltc), :lang(ltc-Hant), :lang(ltc-Hans),
 :lang(och), :lang(och-Hant), :lang(och-Hans) {
 	font-family:
+		Roboto,
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif SC", "Noto Serif CJK SC",
 		"Source Han Serif", "Noto Serif CJK JP",
@@ -156,6 +163,7 @@
 :lang(yue-KR), :lang(yue-Hant-KR), :lang(yue-Hans-KR),
 :lang(zh-yue-KR), :lang(zh-yue-Hant-KR), :lang(zh-yue-Hans-KR) {
 	font-family:
+		Roboto,
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif SC", "Noto Serif CJK SC",
 		"Source Han Serif", "Noto Serif CJK JP",
@@ -183,6 +191,7 @@
 :lang(ltc-SG), :lang(ltc-Hant-SG), :lang(ltc-Hans-SG),
 :lang(och-SG), :lang(och-Hant-SG), :lang(och-Hans-SG) {
 	font-family:
+		Roboto,
 		"Source Han Serif SC", "Noto Serif CJK SC",
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif", "Noto Serif CJK JP",
@@ -258,6 +267,7 @@
 :lang(ltc-MO), :lang(ltc-Hant-MO), :lang(ltc-Hans-MO),
 :lang(och-MO), :lang(och-Hant-MO), :lang(och-Hans-MO) {
 	font-family:
+		Roboto,
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif SC", "Noto Serif CJK SC",
 		"Source Han Serif", "Noto Serif CJK JP",
@@ -302,6 +312,7 @@
 :lang(ltc-JP), :lang(ltc-Hant-JP), :lang(ltc-Hans-JP),
 :lang(och-JP), :lang(och-Hant-JP), :lang(och-Hans-JP) {
 	font-family:
+		Roboto,
 		"Source Han Serif", "Noto Serif CJK JP",
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif SC", "Noto Serif CJK SC",
@@ -344,6 +355,7 @@
 :lang(ltc-TW), :lang(ltc-Hant-TW), :lang(ltc-Hans-TW),
 :lang(och-TW), :lang(och-Hant-TW), :lang(och-Hans-TW) {
 	font-family:
+		Roboto,
 		"Source Han Serif TC", "Noto Serif CJK TC",
 		"Source Han Serif K", "Noto Serif CJK KR",
 		"Source Han Serif SC", "Noto Serif CJK SC",
