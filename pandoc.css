@@ -36,39 +36,31 @@ ul ::marker, ol ::marker {
 	color: initial;
 }
 
-@media only screen and (max-width: 768px) {
-	body {
-		font-size: 14px;
-	}
-}
-
-a:link {
+a {
 	color: inherit;
 	border-bottom: 1px solid #a4a4a4;
 	padding-bottom: 1px;
 	text-decoration: none;
 }
 
-a:link.icon, a:link.icon:hover, a:link.icon:visited,
-a:link.footnote-back, a:link.footnote-back:hover, a:link.footnote-back:visited,
-a:link.footnote-ref, a:link.footnote-ref:hover, a:link.footnote-ref:visited,
-.sourceCode a:link, .sourceCode a:link:hover, .sourceCode a:link:visited,
-nav a:link, nav a:link:hover, nav a:link:visited {
+a.icon, a.footnote-back, a.footnote-ref, .sourceCode a, nav a {
 	border-bottom: none;
 	margin: initial;
 }
 
-a:link:hover, a:link:visited {
+a:active, a:visited {
+	color: inherit;
+}
+
+a:hover {
 	border-bottom: 1px solid black;
 	color: initial;
 	transition: 0.5s;
 }
 
-a:active { color: #faa700; }
-
 .author { display: none; }
 
-::selection { background: LavenderBlush; }
+::selection { background-color: LavenderBlush; }
 
 img {
 	max-width: 100%;
